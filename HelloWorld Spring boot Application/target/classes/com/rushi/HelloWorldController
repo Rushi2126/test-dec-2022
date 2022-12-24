@@ -1,0 +1,9 @@
+package com.rushi;
+
+@org.springframework.web.bind.annotation.RestController
+public class HelloWorldController {
+    public HelloWorldController() { /* compiled code */ }
+
+    @org.springframework.web.bind.annotation.RequestMapping({"/"})
+    public java.lang.String hello() { /* compiled code */ }
+}
